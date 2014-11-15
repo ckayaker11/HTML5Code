@@ -1,0 +1,245 @@
+    /*desktop */
+@media (min-width: 641px) { 
+
+	p { 
+		font-size: 1em;
+		color: #34282C;
+		font-weight: normal;
+		font-family: 'Open Sans', Arial, sans-serif;
+	}
+	
+	h2 { 
+		font-size: 1.6em;
+		color: #34282C;
+		font-weight: bold;
+		font-family: 'Open Sans', Arial, sans-serif;
+	}	
+	
+	.formatDate { 
+		font-size: 1em;
+		color: #34282C;
+		font-weight: bold;
+		font-family: 'Open Sans', Arial, sans-serif;
+	}	
+		
+	#menuBorder {
+		position: fixed;
+		height: 60px;
+		width: 100%;
+		top: 0;
+		left: 0;
+		border-top: 2px solid #a1cb2f;
+		background: #080808;
+		z-index: 999999;
+	}
+	
+	#topMenu { 
+		font-family: 'Open Sans', Arial, sans-serif; 
+		font-size: 1.2em;	
+		color: white;
+		width: 900px;
+		margin: 0 auto;
+		margin-top: 20px;
+		font-weight: bold;
+		text-align: center;
+	}
+	
+	#topMenu li { 
+		display: inline; 
+		padding: 30px; 
+		text-decoration: none;
+	}	
+
+	.topAnchor a{ 
+		color: white;
+		text-decoration: none;
+	}			
+	
+	.topAnchor a:hover { 
+		color: white;
+		text-decoration: none;
+		border-bottom: 3px solid red;
+	}	
+
+	.home  a {
+		color: red;
+	}
+
+	.home a:hover{
+		color: red;
+		text-decoration: none;
+	}
+	
+	.bigTitle {
+		position: absolute;
+		top: 200px;
+		left: 50px;
+		color: white;
+		font-weight: bold;
+		font-family: 'Open Sans', Arial, sans-serif;
+		font-size: 2.1em;
+		line-height: 1.3em;
+		z-index: 500;
+		border-bottom: 3px solid red;
+}
+
+	.smallTitle {
+		position: absolute;
+		top: 242px;
+		left: 50px;
+		color: white;
+		font-weight: normal;
+		font-family: 'Open Sans', Arial, sans-serif;
+		font-size: 1.6em;
+		line-height: 1.4em;
+		z-index: 500;
+	}
+
+	#rightNav {
+		text-align: right;
+		position: absolute;
+		top: 200px;
+		right: 65px;
+		color: white;
+		font-weight: normal;
+		font-family: 'Open Sans', Arial, sans-serif;
+		font-size: 1.4em;
+		z-index: 500;
+		list-style-type: none;
+	}
+	
+	#rightNav li {
+		padding: 2px;
+	}	
+	
+	#rightNav :hover {
+		cursor: pointer;
+		opacity: 0.5;
+	}	
+		
+	article {
+		position: absolute;
+		top: 970px;	
+		left: 40px
+	}		
+		
+		
+	#downPointer a{
+		position: absolute;
+		top: 665px;
+		margin-left: 43%;
+		margin-right: 43%;
+		color: white;
+		text-decoration: none;
+		font-weight: bold;
+		font-size: 1.4em;
+	}		
+
+#middleOfPage  {
+	position: absolute;
+	top: 900px;
+}	
+		
+#cf2 {
+  position:absolute;
+  height:960px;
+  width:1440px;
+  margin:0 auto;
+}
+#cf2 img {
+  position:absolute;
+  height:960px;
+  width:1440px;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 2s ease-in-out;
+}
+
+#cf2 img.transparent {
+opacity:0;
+}
+
+#cf2 img.visible {
+opacity:1;
+}		
+		
+		
+} /*end desktop*/
+     
+ 
+/* phones */
+@media (max-width: 640px) { 
+		p { font-size: 1.6em;
+			color: black;
+			font-weight: normal;
+			font-family: 'Open Sans', Arial, sans-serif;
+		 }		
+		 
+		h2 { font-size: 2em;
+			color: black;
+			font-weight: bold;
+			font-family: 'Open Sans', Arial, sans-serif;
+		 }				 
+	#menuBorder {
+		position: fixed;
+		height: 180px;
+		width: 100%;
+		top: 0;
+		left: 0;
+		border-top: 2px solid #a1cb2f;
+		background: #080808;
+		z-index: 999999;
+	}		 
+	#topMenu { 
+		font-family: 'Open Sans', Arial, sans-serif; 
+		font-size: 1.8em;	
+		line-height: 2.8em;	
+		color: white;
+		width: 900px;
+		margin: 0 auto;
+		margin-top: 20px;
+		font-weight: bold;
+		text-align: left;
+	} 
+	
+	.topAnchor a{ 
+		color: white;
+		text-decoration: none;
+	}			
+	
+	.topAnchor a:hover { 
+		color: white;
+		text-decoration: none;
+		border-bottom: 3px solid red;
+	}	
+
+	.home  a {
+		color: red;
+	}
+
+	.home a:hover{
+		color: red;
+		text-decoration: none;
+	}
+
+	#topMenu li { 
+		padding:5px; 
+		list-style-type: none;
+	}	
+	
+	article {
+		position: absolute;
+		top: 220px;	
+		left: 25px
+	}		
+	
+	.formatDate { 
+		font-size: 1.4em;
+		color: #34282C;
+		font-weight: bold;
+		font-family: 'Open Sans', Arial, sans-serif;
+	}		
+		 
+} /* end phones */
